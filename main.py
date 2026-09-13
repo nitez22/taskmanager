@@ -1,7 +1,8 @@
 from task_manager import TaskManager
 from ai_service import create_simple_tasks
 
-def print_menu(): 
+
+def print_menu():
     print("\n--- Gestor de Tareas Inteligente ---")
     print("1. Añadir tarea")
     print("2. Añadir tarea compleja (con IA)")
@@ -9,6 +10,7 @@ def print_menu():
     print("4. Completar tarea")
     print("5. Eliminar tarea")
     print("6. Salir")
+
 
 def main():
 
@@ -56,6 +58,7 @@ def main():
 
         except ValueError:
             print("Opción no válida. Selecciona otra.")
+
 
 if __name__ == "__main__":
     main()
